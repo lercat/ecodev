@@ -63,19 +63,6 @@ h5 {
 	text-align: center;}
 
 
-//**h2 {
-	font-size: 3.5rem;
-	text-align: center;
-	padding-bottom: 15px;
-	border-bottom: 2px solid rgba(153,153,153,0.1);}**/
-
-/**a {
-	text-decoration: none;
-	color: rgba(74, 38, 25, 8);
-	transition: all 0.3s ease 0s;
-}**/
-
-
 img {
  width: 100%;
  height: auto;
@@ -142,12 +129,6 @@ background-color: #f6ae2d;
 color: white;
 height:9vh}
 
-/**.header .logo {
-  display: block;
-  float: left;
-  font-size: 2em;
-  padding: 10px 20px;
-  text-decoration: none;**/
 
 /* menu */
 
@@ -305,20 +286,14 @@ section a:hover {
 
 
 	/** Liens*/
-
-	#liens { padding-top: 100px;
+#liens { padding-top: 100px;
 	}
 
-	#liens img { padding-top: 30px;
+#liens img { padding-top: 30px;
 	}
 
 
 	/**Articles**/
-
-
-/**#pollution {
-	margin: 25px;
-}**/
 
 #pollution img {
 	width: 50%;
@@ -336,10 +311,6 @@ section a:hover {
 
 #pollution { padding-top: 80px;}
 
-/*+++++++++++++++++++++cssecoconcevoir*/
-/**p, #ecoconcevoir {
-	margin: 25px;
-}**/
 
 #ecoconcevoir img {
 	width: 30%;
@@ -400,41 +371,34 @@ section a:hover {
 }
 
 
-/*FOOTER    */
+.page-footer {
+	background-color: #f46036;
+	font-size: 16px;}
 
+.coordonnees a:hover {
+	color: #f6ae2d;} /**Orange clair**/
 
-	/**.slogan p {
-		font-size: 20px;
-		top: 0;
-		color:#F6AE2D;}**/
+.Picto img {
+	width :20%;
+	display:inline-block;
+	margin: 8px;}
 
-		.page-footer {
-			background-color: #f46036;
-			font-size: 16px;}
+.contacter {
+	text-align: center;}
 
-			.coordonnees a:hover {
-				color: #f6ae2d;} /**Orange clair**/
+.contact img {
+	width :13%;
+	display:inline-block;
+	margin: 7px;
+	vertical-align: middle;}
 
-			.Picto img {
-				width :20%;
-				display:inline-block;
-				margin: 8px;}
+#fleche {
+	position: fixed;
+	z-index: 99;
+	font-size: 20px;
+	right:2%;
+	bottom: 4%;}
 
-				.contacter {
-					text-align: center;}
-
-				.contact img {
-					width :13%;
-					display:inline-block;
-					margin: 7px;
-				vertical-align: middle;}
-
-	#fleche {
-		position: fixed;
-		z-index: 99;
-		font-size: 20px;
-		right:2%;
-		bottom: 4%;}
 
 
 	@media only screen and (max-width: 340px) {
@@ -612,9 +576,6 @@ section a:hover {
 		padding-right: 20px;
 	}
 
-	/*.language img {
-		width: 70%;
-	}*/
 
 	#resume article:nth-child(even) img, #resume article:nth-child(odd) img {
 		float: none;
