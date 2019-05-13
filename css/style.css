@@ -98,8 +98,9 @@ img {
 /* HEADER */
 
 header img {
-	width: 100px;
-	margin: 15px;
+	width: 105px;
+	margin: 13px;
+	height: 40px;
 }
 
 a {
