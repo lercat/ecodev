@@ -97,19 +97,9 @@ img {
 
 /* HEADER */
 
-/**
-.nav-wrapper {
-	background-color: #f46036;
-}
-#nav-mobile a {
-	color: white;
-	font-size: 13px;
-	text-transform: uppercase;
-}**/
-
 header img {
-	width: 130px;
-	margin: 13px;
+	width: 100px;
+	margin: 15px;
 }
 
 a {
@@ -128,7 +118,7 @@ a {
   position: fixed;
   width: 100%;
   z-index: 0;
-	height:9vh;
+  height:9vh;
 }
 
 .header ul {
@@ -136,6 +126,7 @@ a {
   list-style: none;
   overflow: hidden;
   background-color: #F46036;
+  height:9vh; /*rajout*/
 }
 
 .header li a {
@@ -312,58 +303,6 @@ section a:hover {
 #qui img { padding-top: 10px;}
 
 
-
-/**.services {
-	display: grid;
-	grid-template-columns: repeat(2,1fr);
-	grid-gap: 20px;
-	grid-template-rows: 120px 90px 90px;
-	grid-template-columns: 350px 350px 350px;
-	text-align: center;
-	margin-bottom: 180px;
-	padding-bottom: 50px;
-	text-align: justify;
-}
-
-.services h4{
-	text-align: center;
-	text-transform: uppercase;}
-
-	.qui img {
-	margin-left: auto;
-    margin-right: auto;}
-
-.who {
-grid-column:1 /span 3;
-grid-row: 1/1;
-padding: 20px;
-text-align: center;
-min-height:20vh;
-vertical-align: middle;}
-
-
-.qui {
-grid-column:1;
-grid-row: 3/4;
-padding: 10px;
-min-height:20vh;
-vertical-align: text-bottom;}
-
-
-.pourquoi {
-	grid-column: 2;
-	grid-row: 2/3;
-	padding: 10px;
-	min-height:20vh;
-	vertical-align: text-bottom;}
-
-.ou  {
-	grid-column: 3;
-	grid-row: 2/3;
-	padding: 10px;
-	min-height:20vh;
-	vertical-align: text-bottom;}**/
-
 	/** Liens*/
 
 	#liens { padding-top: 100px;
@@ -478,7 +417,7 @@ vertical-align: text-bottom;}
 			.Picto img {
 				width :20%;
 				display:inline-block;
-				margin: 18px;}
+				margin: 8px;}
 
 				.contacter {
 					text-align: center;}
@@ -495,49 +434,6 @@ vertical-align: text-bottom;}
 		font-size: 20px;
 		right:2%;
 		bottom: 4%;}
-
-/*Footer
-.mon-titre{
- position:relative;
- width:90%;
- top:45vh;
- margin: auto;
- text-align:center;}
-.Picto{
-  display: grid;
-  grid-template-columns: repeat (3,1fr);
-  grid-gap: 0px;
-  grid-auto-rows: minmax(auto, auto);
-  padding-left: 0.5%;
-  padding-right: 20%;
-}
-.one {
-  grid-column: 1;
-  grid-row:1;
-}
-.two {
-  grid-column:2;
-  grid-row: 1;
-}
-.three {
-  grid-column: 3;
-  grid-row:1;
-}
-footer{
-position:absolute;
-  margin-bottom: 0;
-  width:100%;
-  min-height:130px;
-}
- p{
-font-style: cursive;
-font-size: 20px;
-}
-img {
-width: 32px;"
-}*/
-
-
 
 
 	@media only screen and (max-width: 340px) {
