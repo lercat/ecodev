@@ -350,7 +350,9 @@ section a:hover {
     }
 }
 
-
+.centre {
+  text-align: center;
+}
 #contact p, #resume div {
 	margin: 25px;
 }
