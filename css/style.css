@@ -282,14 +282,18 @@ section a:hover {
 
 #qui { padding-top: 40px;}
 
-#qui img { padding-top: 10px;}
+#qui img { 
+  width: 40%;
+  padding-top: 10px;}
 
 
 	/** Liens*/
 #liens { padding-top: 100px;
 	}
 
-#liens img { padding-top: 30px;
+#liens img { 
+  width: 50%;
+  padding-top: 30px;
 	}
 
 
@@ -591,4 +595,5 @@ section a:hover {
 
 	input, textarea {
 		width: 100%;
+}
 }
